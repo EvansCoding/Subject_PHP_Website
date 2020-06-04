@@ -1,0 +1,502 @@
+body {
+    font-family: Open Sans, sans-serif;
+}
+
+.font-ct,
+h1,
+h2,
+h3,
+.static-menu a.main-menu,
+.container-megamenu.vertical .vertical-wrapper ul li>a strong,
+.container-megamenu.vertical .vertical-wrapper ul.megamenu li .sub-menu .content .static-menu .menu ul li a.main-menu,
+.horizontal ul.megamenu>li>a,
+.footertitle,
+.module h3.modtitle span,
+.breadcrumb li a,
+.item-title a,
+.best-seller-custom .item-info,
+.product-box-desc,
+.product_page_price .price-new,
+.list-group-item a,
+#menu ul.nav>li>a,
+.megamenuToogle-pattern,
+.right-block .caption h4,
+.price,
+.box-price {
+    font-family: Raleway, sans-serif;
+}
+
+
+/***************FONT-SIZE***********************/
+
+div.caption h4,
+.cat_slider_title a,
+.products-list .product-grid .product-item-container .right-block h4 a {
+    font-size: 12px;
+    color: #656D78;
+}
+
+
+/****************************TEXT-BUTTON*************/
+
+.text-danger {
+    color: #fb2a2a;
+    background-color: #eee;
+}
+
+
+/**************BUTTON - IN CHECKOUT - XÁC NHẬN MUA HÀNG *************/
+
+#d_quickcheckout .btn-lg {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#d_quickcheckout .btn-primary {
+    background: #de420e;
+    background-color: #de420e;
+    border-color: #de420e;
+}
+
+#d_quickcheckout .btn-primary:hover {
+    background: #ff4000;
+    background-color: #ff4000;
+    border-color: #ff4000;
+    background-image: linear-gradient(to bottom, #f66818, #d42a0f);
+}
+
+#d_quickcheckout .btn-primary {
+    background: #ff5c00;
+    /*#d42a0f;*/
+    background-color: #ff5c00;
+    /*#d42a0f;*/
+    border-color: #ff5c00;
+    /*#d22a0f;*/
+    background-image: linear-gradient(to bottom, #e47911, #ef5904);
+}
+
+#d_quickcheckout .btn-primary:hover {
+    background: #f66818;
+    /*#ff4700;                  /*#d43400;   //#de0000;*/
+    background-color: #f66818;
+    /*#ff4700;  */
+    border-color: #f66818;
+    /*#ff4700;    */
+}
+
+*/
+/**********************AddToCart-in- related product-in product detail***************************/
+
+.products-list .product-grid .product-item-container .right-block .addToCart:hover {
+    background: #f66818;
+    /*#ff4700;                  /*#d43400;   //#de0000;*/
+    background-color: #f66818;
+    /*#ff4700;  */
+    border-color: #f66818;
+    /*#ff4700;    */
+}
+
+
+/**********************AddToCart - in- detail PRODUCT************************************************/
+
+.product-view .content-product-right .box-info-product .cart input {
+    background: #fd9729;
+    /*#e47911;            #ff5c00;                  /*#d42a0f;*/
+    background-color: #fd9729;
+    /*#e47911;  #ff5c00;                          /*#d42a0f;*/
+    border-color: #fd9729;
+    /*#e47911;           #ff5c00;                 /*#d22a0f;*/
+    /*background-image: linear-gradient(to bottom, #e47911,  #ef5904); */
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 0px 10px 0px 0px;
+    height: auto;
+    text-transform: uppercase;
+}
+
+.product-view .content-product-right .box-info-product .cart input:hover {
+    /*, #button-cart.btn.btn-mega.btn-lg:hover*/
+    background: #fd9729;
+    /*#f66818;                    #ff4700;   */
+    background-color: #fd9729;
+    /*#f66818;                    #ff4700;  */
+    border-color: #fd9729;
+    /*#f66818;   #ef8616                 #ff4700; */
+    background-image: linear-gradient(to bottom, #fd9729, #ef8616);
+}
+
+
+/*************BUY-NOW-BUTTON**********************/
+
+#product-buy-now.btn.product-buy-now {
+    padding: 0px;
+}
+
+#product-buy-now.btn.product-buy-now:hover {
+    background-image: linear-gradient(to bottom, #f66818, #d42a0f);
+}
+
+
+/*******************AddToCart-in HOME*************************/
+
+.module.custom_supper .product-layout .product-item-container .button-group button.addToCart:hover {
+    background-color: #f66818;
+    background: #f66818;
+}
+
+
+/************************************/
+
+.button.inverse,
+.btn.inverse {
+    background-color: #3371ad;
+    background: #3371ad;
+}
+
+.button.inverse,
+.btn.inverse:hover {
+    background-color: #2265a6;
+}
+
+
+/*checkout-button in header*/
+
+.button,
+.btn:hover,
+.btn.btn-primary:hover {
+    background: #f66818;
+    /*#ff4700;*/
+    background-color: #f66818;
+    /*#ff4700;*/
+    border-color: #f66818;
+    /*#ff4700;*/
+}
+
+
+/****************Tag in product page*****************/
+
+.btn-sm {
+    background: #999;
+}
+
+
+/*checkout - in cartpage*/
+
+.btn.btn-primary.btn-sm {
+    background: #999;
+}
+
+.btn.btn-primary {
+    background: #ff5c00;
+}
+
+
+/*********TIEP TUC MUA HANG - IN CART*/
+
+
+/*and**button-review****/
+
+.btn.btn-default {
+    background-color: #60778b;
+    background: #60778b;
+}
+
+#button-review.btn.btn-primary {
+    background-color: #3371ad;
+    background: #3371ad;
+}
+
+.btn.btn-default:hover,
+#button-review.btn.btn-primary:hover {
+    background-color: #2265a6;
+}
+
+#input-postcode.form-control {
+    display: none;
+}
+
+
+/*///////////////////// SO SALE 1 - IN LAYOUT2////////////////*/
+
+.so-deals-slick.slick-horizontal .deals-content .ds-items .ds-image-thumb img {
+    max-height: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+
+div.so-deals-slick.slick-horizontal .deals-content .ds-items .ds-image-thumb {
+    padding: 5px;
+    /*margin: 0 10px 10px 10px;*/
+    margin: 0 0 10px 0;
+    position: relative;
+    /*width: 95%;*/
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    height: 100px;
+}
+
+div .ds-item-inner h4 {
+    font-size: 13px;
+}
+
+div.so-deals-slick.slick-horizontal .deals-content .ds-items {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: none;
+    padding: 23px 10px 6px;
+    width: 100%;
+}
+
+.so-deals-slick .deals-nav {
+    display: inline-block;
+    padding: none;
+    border: none;
+    float: right;
+    margin-bottom: none;
+}
+
+.so-deals-slick.slick-horizontal .deals-content {
+    padding-bottom: 0;
+}
+
+div .ds-items.slick-initialized.slick-slider {
+    width: 100%;
+    /*margin-left:15px; */
+    /*height:100%; */
+}
+
+.so-deals-slick .deals-content .ds-items-detail .product-thumb .caption {
+    width: 50%;
+    float: left;
+    padding: 0px;
+    text-align: left;
+}
+
+.so-deals-slick .deals-content {
+    border: none;
+}
+
+div .ds-item-inner {
+    height: 124px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*margin-bottom:15px; */
+    /* margin-left:20px */
+}
+
+.slick-slide img {
+    display: block;
+    margin-bottom: 20px;
+    /*padding: 0px;*/
+}
+
+.so-deals-slick .deals-content .ds-items-detail .product-thumb .image {
+    width: 50%;
+    float: left;
+    margin-top: 0px;
+}
+
+div.custom_deals_featured.so-deals .so-deal .des_deal {
+    border-top: 1px solid #e1e1e1;
+    margin-top: 11px;
+    padding-top: 18px;
+    margin-bottom: 11px;
+    line-height: 23px;
+    font-weight: normal;
+}
+
+div.custom_deals_featured.so-deals .so-deal .caption h4 a {
+    color: #222;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+
+/**************OPACITY-IMAGE-LOGO BRAND****************/
+
+.yt-content-slider.owl2-carousel .owl2-item img {
+    opacity: 0.5;
+}
+
+.yt-content-slider.owl2-carousel .owl2-item img:hover {
+    opacity: 1;
+}
+
+
+/***************FONT-SIZE-PRODUCT-IN HOMEPGAE******************/
+
+.module.custom_supper .product-layout .product-item-container .right-block .caption h4 a {
+    font-size: 12px;
+    color: #222;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.module.custom_cate_slider .product-layout .product-item-container .right-block .caption h4 a {
+    font-size: 13px;
+    color: #222;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+
+/***********************PRICE-IN FLASH SALE*********************/
+
+.so-deals-slick .deals-content .ds-items-detail .product-thumb .caption .price .price-new {
+    color: #ff0015;
+    font-size: 22px;
+}
+
+.price .price-old {
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.best-seller-custom.best-seller .so-extraslider .extraslider-inner .item .item-wrap.style1 .media-body .item-info {
+    /*PRICE-IN-BESELLER-LIST*/
+    color: #ff0015;
+}
+
+*/
+/*****************ADD to CART in So-tools *****************/
+
+#so-groups .form-content .form-box .product-thumb .button-group button {
+    padding: 0 3px;
+}
+
+
+/*******************************/
+
+.module.custom_supper .so-sp-cat .spcat-wrap .category-wrap .slider .cat_slider_inner {
+    min-height: 700px;
+}
+
+
+/*************************REPLACE BUTTON IN REVIEW in product********************************/
+
+#button-review.btn.btn-primary {
+    text-indent: -999px;
+}
+
+#button-review.btn.btn-primary:before {
+    text-indent: 0px;
+    float: left;
+    content: 'Gửi bình luận';
+}
+
+
+/*********************REPLACE BUTON-confirm-checkout***********/
+
+
+/*
+
+#qc_confirm_order.btn.btn-primary.btn-lg.btn-block {
+text-indent: -999px;
+}
+#qc_confirm_order.btn.btn-primary.btn-lg.btn-block:before{
+text-indent: 0px;
+float: left;
+content: 'Đặt hàng';
+}  */
+
+
+/*************ẨN - AVAILABLE OPTION - IN DETAIL PRODUCT******************/
+
+.product-view .content-product-right h3 {
+    display: none;
+}
+
+
+/**********************THÔNG BÁO ĐƠN HÀNG TỐI THIỂU - CHECKOUT************************/
+
+.alert-danger i {
+    background: none;
+}
+
+
+/******************* GIẢM GIÁ MUA SỐ LƯỢNG*********************/
+
+.text-success {
+    color: #0d58e7;
+}
+
+
+/******************* ẨN GIÁ SAU THUẾ - IN PRODUCT DETAIL *********************/
+
+* {
+    outline: none !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.product_page_price .price-tax {
+    display: none;
+}
+
+
+/*************************88TÙY CHỌN SAN PHAM******************/
+
+#product .radio-type-button .option-content-box {
+    background: #6786b5;
+    /*#567fea; /*#8fa0cd; /*#a5abbb;  /*#8c9fd2;  /*#7784a9;   /*#e8d1b3;*/
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+#product .radio-type-button .option-content-box.active,
+#product .radio-type-button .option-content-box.active:hover {
+    background: #0e43e0;
+    /*#324479;  /*#1f1bde;*/
+    color: white;
+}
+
+#product .control-label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #b31f1f;
+}
+
+
+/**************************FONT SIZE CHECK-OUT******************************/
+
+#d_quickcheckout label {
+    font-size: 14px;
+}
+
+body {
+    font-size: 14px;
+    /****TANG- 1px******/
+}
+
+.price {
+    margin: 0;
+}
+
+
+/*************************MÀU BUTTON &quot;MÔ TẢ&quot;*****************/
+
+.producttab .tabsslider.horizontal-tabs .nav-tabs li.active a,
+.producttab .tabsslider.horizontal-tabs .nav-tabs li:hover a {
+    background: #044f98;
+}
+
+
+/*************************MÀU BEST SELLER -PRICE****************************/
+
+.best-seller-custom.best-seller .so-extraslider .extraslider-inner .item .item-wrap.style1 .media-body .item-info {
+    color: #ff5c00;
+}
+
+.common-home .block.block_2 {
+    margin-bottom: 20px;
+}
