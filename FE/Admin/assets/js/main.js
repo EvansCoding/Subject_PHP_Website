@@ -65,6 +65,7 @@ jQuery(function($) {
     });
 
     $(".sidebar-dropdown > a").click(function() {
+        debugger;
         $(".sidebar-submenu").slideUp(200);
         if ($(this).parent().hasClass("active")) {
             $(".sidebar-dropdown").removeClass("active");
